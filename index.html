@@ -1,0 +1,88 @@
+---
+layout: default
+body_id: homepage
+---
+
+<section class="masthead">
+
+</section>
+
+<section class="lead-feature">
+  <div class="container">
+    <div class="hero">
+      <h1>Bringing clean water to rural African communities</h1>
+
+    </div>
+    <div class="lead-feature-inner">
+      <div class="lead-feature-copy">
+        <h2>2022 Impact Report</h2>
+        <p class="lead">Be Water facilitates well building projects for remote African communities. Our work supports those with limited or no access to safe drinking water.</p>
+        <p>Our Impact Report is summary of what Be Water has acheived with our first three projects.</p>
+        <a class="button icon-button" href="/impact">
+          <span>Read the report</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+      <div class="flex-half">
+        <img src="/assets/img/hero2.jpeg" alt="Happy Be Water" />
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="about-feature">
+      <div class="flex-half">
+        <h4 class="subheading-before">About the Be Water project</h4>
+        <h2>Why do we exist?</h2>
+        <p>Each year, more than 3.5 million children die from water-related illnesses. Diarrhea alone kills 1.8 million children each year, which is around the population of Barcelona!</p>
+        <p>Our vision is to facilitate access to clean water for as many people as possible in rural Africa. We work with a local NGO on each project, to ensure continuity and the long-term impact of our work.</p>
+        <a class="button icon-button" href="/about">
+          <span>Read more about us</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+      <div class="flex-half">
+        <img src="/assets/img/africa-handdrawn.png" alt="50% of rural Africans have no access to water that is safe to drink" />
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="projects-feature">
+  <div class="container">
+    <h4 class="subheading-before">Our impact so far</h4>
+    <h2>We've brought water to 2,430 people</h2>
+    <p class="lead">Our work started in 2017 and has taken us to North, East, and West Africa.</p>
+    <div class="project-list-wrapper">
+      <ul class="project-list">
+        {% for post in site.posts reversed %}
+          <li class="project-tile">
+            <a href="{{ post.url }}" >
+              <div class="project-image">
+                <img src="{{ post.feature-img }}" alt="post.title" />
+              </div>
+              <div class="project-meta">
+                <div class="project-stats">
+                  <span>{{ post.people-water }} People</span>
+                  <span>€{{ post.bewater-funds }}</span>
+                </div>
+                <div class="snippet">
+                  <p>{{ post.description }}</p>
+                </div>
+                <div class="project-title">
+                  <h3>{{ post.title }} </h3>
+                  <i class="fas fa-arrow-right"></i>
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,25 @@
+---
+layout:         post
+title:          "Tanzania"
+permalink:      /projects/tanzania
+date:           2022-05-05 13:14:04 +0100
+feature-img:    /assets/img/tanzania/tanzania-hero.jpeg
+project-date:   October 2018
+cost:           25,600
+bewater-funds:  6,000
+people-water:   1130
+partner:        Tatu
+description:    Construction of a water well with a solar powered pump. 
+categories:   
+---
+
+## {{ page.title }}, {{ project-date }}
+
+In partnership with {{ page.partner }}, Be Water raised €{{ page.cost }} to {{ page.description }}.
+
+![Be Water Tanzania, January 2017](/assets/img/tanzania/tanzania-project1.jpeg)
+![Be Water Tanzania, January 2017](/assets/img/tanzania/tanzania-project2.jpeg)
+![Be Water Tanzania, January 2017](/assets/img/tanzania/tanzania-project3.jpeg)
+![Be Water Tanzania, January 2017](/assets/img/tanzania/tanzania-project4.jpeg)
+![Be Water Tanzania, January 2017](/assets/img/tanzania/tanzania-project5.jpeg)
+![Be Water Tanzania, January 2017](/assets/img/tanzania/tanzania-project6.jpeg)

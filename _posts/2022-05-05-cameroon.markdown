@@ -1,0 +1,25 @@
+---
+layout:         post
+title:          "Cameroon"
+permalink:      /projects/cameroon
+date:           2022-05-05 11:14:04 +0100
+feature-img:    /assets/img/Cameroon/cameroon-hero.jpeg
+project-date:   January 2017
+cost:           3,400
+bewater-funds:  1,700
+people-water:   600
+partner:        Zerca y Lejos ONGD
+description:    Repair of two water wells serving a large school and three nearby villages.  
+categories:   
+---
+
+## {{ page.title }}, {{ project-date }}
+
+In partnership with {{ page.partner }}, Be Water raised €{{ page.cost }} to {{ page.description }}.
+
+![Be Water Cameroon, January 2017](/assets/img/Cameroon/cameroon-project1.jpeg)
+![Be Water Cameroon, January 2017](/assets/img/Cameroon/cameroon-project2.jpeg)
+![Be Water Cameroon, January 2017](/assets/img/Cameroon/cameroon-project3.jpeg)
+![Be Water Cameroon, January 2017](/assets/img/Cameroon/cameroon-project4.jpeg)
+![Be Water Cameroon, January 2017](/assets/img/Cameroon/cameroon-project5.jpeg)
+![Be Water Cameroon, January 2017](/assets/img/Cameroon/cameroon-project6.jpeg)

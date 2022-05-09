@@ -1,0 +1,25 @@
+---
+layout:         post
+title:          "Morocco"
+permalink:      /projects/morocco
+date:           2022-05-05 12:14:04 +0100
+feature-img:    /assets/img/morocco/morocco-hero.jpeg
+project-date:   July 2018
+cost:           12,260
+bewater-funds:  4,000
+people-water:   700
+partner:        Geoda Action
+description:    Construction of a 30,000 litre water tank in Imin Tizhgi.
+categories:   
+---
+
+## {{ page.title }}, {{ project-date }}
+
+In partnership with {{ page.partner }}, Be Water raised €{{ page.cost }} to {{ page.description }}.
+
+![Be Water Morocco, January 2017](/assets/img/morocco/morocco-project1.jpeg)
+![Be Water Morocco, January 2017](/assets/img/morocco/morocco-project2.jpeg)
+![Be Water Morocco, January 2017](/assets/img/morocco/morocco-project3.jpeg)
+![Be Water Morocco, January 2017](/assets/img/morocco/morocco-project4.jpeg)
+![Be Water Morocco, January 2017](/assets/img/morocco/morocco-project5.jpeg)
+![Be Water Morocco, January 2017](/assets/img/morocco/morocco-project6.jpeg)

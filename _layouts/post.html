@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<article>
+
+  <div class="container">
+
+    <nav class="breadcrumbs">
+      <p><a href="/">Home</a> &nbsp;>&nbsp; <a href="/posts">Posts</a> &nbsp;>&nbsp; {{ page.title }}</p>
+    </nav>
+
+    <h1>{{ page.title }}</h1>
+    <p class="small">{{ page.date | date: "%-d %B %Y" }}</p>
+
+    <hr />
+
+    {{ page.content }}
+
+  </div>
+
+</article>
