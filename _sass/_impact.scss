@@ -1,0 +1,16 @@
+// ////////////////////////////////
+// ================================
+// IMPACT REPORT
+// ================================
+// ////////////////////////////////
+
+.impact-hero {
+  background: $background-color;
+  background: linear-gradient(to bottom, rgba(253, 251, 250, 0.95), rgba(253, 251, 250, 1) 80%), url('/assets/img/background-tanzania.jpeg');
+}
+
+.impact-hero-inner {
+  @include for-tablet-landscape-up {
+    margin-top: 8rem;
+  };
+}
