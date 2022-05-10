@@ -4,7 +4,7 @@ jQuery(document).ready(function($){
   var $hamburger = $('.hamburger');
   $('.menu-toggle').on("click", function(){
     $hamburger.toggleClass("is-active");
-    $('.main-navigation-container').toggleClass("menu-open");
+    $('.nav-links').toggleClass("menu-open");
   });
 
   const settings = {
